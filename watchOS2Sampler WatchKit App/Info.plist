@@ -28,7 +28,7 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>com.shu223.sampler.watchos2</string>
+	<string>com.ninja.DataSharing</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>
