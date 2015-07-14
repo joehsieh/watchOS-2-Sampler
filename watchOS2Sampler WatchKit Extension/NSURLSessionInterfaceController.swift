@@ -18,8 +18,12 @@ class NSURLSessionInterfaceController: WKInterfaceController {
     
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
+		let region = WKAccessibilityImageRegion()
+		region.frame = CGRectMake(28, 0, 55, 44)
+		region.label = NSLocalizedString("Hat", comment: "")
+		self.image.setAccessibilityImageRegions([region])
     }
-    
+
     override func willActivate() {
         super.willActivate()
         self.isActive = true

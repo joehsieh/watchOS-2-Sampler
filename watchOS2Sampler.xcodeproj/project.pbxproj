@@ -202,14 +202,14 @@
 			name = Media;
 			sourceTree = "<group>";
 		};
-		53E1F8E61B544BEA0085ECDA /* CoreaMotion */ = {
+		53E1F8E61B544BEA0085ECDA /* CoreMotion */ = {
 			isa = PBXGroup;
 			children = (
 				8A3C17F81B2CB7FF00D75AB6 /* AccelerometerInterfaceController.swift */,
 				8ACBDCEF1B2CBC23006D98E1 /* GyroscopeInterfaceController.swift */,
 				8ACBDCF21B2CC582006D98E1 /* PedometerInterfaceController.swift */,
 			);
-			name = CoreaMotion;
+			name = CoreMotion;
 			sourceTree = "<group>";
 		};
 		53E1F8E71B544BFC0085ECDA /* Animation */ = {
@@ -224,9 +224,9 @@
 		53E1F8E81B544C170085ECDA /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				8A2DF2741B2BA3430025DDD7 /* PickerStylesInterfaceController.swift */,
 				8AFECCB31B2A3246005C46D1 /* AlertInterfaceController.swift */,
 				8A2DF2721B2B85DE0025DDD7 /* CoordinatedAnimationsInterfaceController.swift */,
-				8A2DF2741B2BA3430025DDD7 /* PickerStylesInterfaceController.swift */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -367,8 +367,8 @@
 			children = (
 				53E1F8E81B544C170085ECDA /* UI */,
 				53E1F8E71B544BFC0085ECDA /* Animation */,
-				53E1F8E61B544BEA0085ECDA /* CoreaMotion */,
 				53E1F8E51B544BD00085ECDA /* Media */,
+				53E1F8E61B544BEA0085ECDA /* CoreMotion */,
 				8A50D5FE1B2CCDD400F4C7A2 /* HeartRateInterfaceController.swift */,
 				8AD5D78C1B2969FB001924F0 /* TapticInterfaceController.swift */,
 				8A976E5E1B2C9AC8008851CD /* OpenSystemURLInterfaceController.swift */,
