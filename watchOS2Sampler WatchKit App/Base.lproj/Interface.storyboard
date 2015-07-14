@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8121.17" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc" defaultGlanceController="0uZ-2p-rRc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8121.20" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc" defaultGlanceController="0uZ-2p-rRc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.16"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8066.14"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -264,6 +264,20 @@
             </objects>
             <point key="canvasLocation" x="553" y="1001"/>
         </scene>
+        <!--VideoPlayer-->
+        <scene sceneID="0lI-Qh-Kba">
+            <objects>
+                <controller identifier="VideoPlayer" hidesWhenLoading="NO" id="dPf-Gs-eho" customClass="VideoPlayerInterfaceController" customModule="watchOS2Sampler_WatchKit_Extension">
+                    <items>
+                        <movie width="1" height="111" alignment="left" id="UFD-rY-juw"/>
+                    </items>
+                    <connections>
+                        <outlet property="movie" destination="UFD-rY-juw" id="pNV-Zn-rUm"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="799" y="1016"/>
+        </scene>
         <!--Taptic-->
         <scene sceneID="JKY-XJ-zfq">
             <objects>
@@ -504,6 +518,13 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="1137" y="796"/>
+        </scene>
+        <!--MediaPlayer-->
+        <scene sceneID="MDk-hN-CSX">
+            <objects>
+                <controller identifier="MediaPlayer" hidesWhenLoading="NO" id="Duq-M7-8Be" customClass="MediaPlayerInterfaceController" customModule="watchOS2Sampler_WatchKit_Extension"/>
+            </objects>
+            <point key="canvasLocation" x="1119" y="1137"/>
         </scene>
         <!--NSURLSession-->
         <scene sceneID="AoC-Dp-FSp">

@@ -101,6 +101,16 @@ class InterfaceController: WKInterfaceController {
                 kItemKeyDetail: "Get an image data from network using NSURLSession.",
                 kItemKeyClassPrefix: "NSURLSession",
             ],
+            [
+                kItemKeyTitle: "Video player",
+                kItemKeyDetail: "WKInterfaceMovie demo",
+                kItemKeyClassPrefix: "VideoPlayer",
+            ],
+            [
+                kItemKeyTitle: "Media player",
+                kItemKeyDetail: "Present media player",
+                kItemKeyClassPrefix: "MediaPlayer",
+            ],
         ]
     }
 
@@ -137,11 +147,10 @@ class InterfaceController: WKInterfaceController {
     
     override func table(table: WKInterfaceTable, didSelectRowAtIndex rowIndex: Int) {
         
-        print("didSelectRowAtIndex: \(rowIndex)")
-        
         let item = items[rowIndex]
         let title = item[kItemKeyClassPrefix]
         
+        print("didSelectRowAtIndex: \(rowIndex) \(title)")
         self.pushControllerWithName(title!, context: nil)
     }
 }

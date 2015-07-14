@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0CE334881B31754D004121A5 /* NSURLSessionInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE334871B31754C004121A5 /* NSURLSessionInterfaceController.swift */; };
+		53E1F8EB1B544DBD0085ECDA /* sample_clip1.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 53E1F8EA1B544DBD0085ECDA /* sample_clip1.m4v */; };
+		53E1F8F11B5452210085ECDA /* VideoPlayerInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E1F8F01B5452210085ECDA /* VideoPlayerInterfaceController.swift */; };
+		53E1F8F31B5458F60085ECDA /* MediaPlayerInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E1F8F21B5458F60085ECDA /* MediaPlayerInterfaceController.swift */; };
 		8A0560D21B28E74D00E5E00C /* RowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0560D11B28E74D00E5E00C /* RowController.swift */; };
 		8A0560D41B28ED1400E5E00C /* AudioRecAndPlayInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0560D31B28ED1400E5E00C /* AudioRecAndPlayInterfaceController.swift */; };
 		8A2DF2731B2B85DE0025DDD7 /* CoordinatedAnimationsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2DF2721B2B85DE0025DDD7 /* CoordinatedAnimationsInterfaceController.swift */; };
@@ -104,6 +107,9 @@
 /* Begin PBXFileReference section */
 		0CE334871B31754C004121A5 /* NSURLSessionInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSURLSessionInterfaceController.swift; sourceTree = "<group>"; };
 		53E1F8E41B5041250085ECDA /* watchOS2Sampler WatchKit App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "watchOS2Sampler WatchKit App.entitlements"; sourceTree = "<group>"; };
+		53E1F8EA1B544DBD0085ECDA /* sample_clip1.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample_clip1.m4v; sourceTree = "<group>"; };
+		53E1F8F01B5452210085ECDA /* VideoPlayerInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerInterfaceController.swift; sourceTree = "<group>"; };
+		53E1F8F21B5458F60085ECDA /* MediaPlayerInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaPlayerInterfaceController.swift; sourceTree = "<group>"; };
 		8A0560D11B28E74D00E5E00C /* RowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowController.swift; sourceTree = "<group>"; };
 		8A0560D31B28ED1400E5E00C /* AudioRecAndPlayInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioRecAndPlayInterfaceController.swift; sourceTree = "<group>"; };
 		8A1FDFC21B28F77B0098FFAA /* watchOS2Sampler WatchKit Extension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "watchOS2Sampler WatchKit Extension-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -187,6 +193,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53E1F8E51B544BD00085ECDA /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				53E1F8ED1B54502C0085ECDA /* Video */,
+				53E1F8EC1B5450270085ECDA /* Audio */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		53E1F8E61B544BEA0085ECDA /* CoreaMotion */ = {
+			isa = PBXGroup;
+			children = (
+				8A3C17F81B2CB7FF00D75AB6 /* AccelerometerInterfaceController.swift */,
+				8ACBDCEF1B2CBC23006D98E1 /* GyroscopeInterfaceController.swift */,
+				8ACBDCF21B2CC582006D98E1 /* PedometerInterfaceController.swift */,
+			);
+			name = CoreaMotion;
+			sourceTree = "<group>";
+		};
+		53E1F8E71B544BFC0085ECDA /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				8A50D6001B2CDC4600F4C7A2 /* TableAnimationInterfaceController.swift */,
+				8A50D6021B2CE4C500F4C7A2 /* AnimatedPropertiesInterfaceController.swift */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		53E1F8E81B544C170085ECDA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8AFECCB31B2A3246005C46D1 /* AlertInterfaceController.swift */,
+				8A2DF2721B2B85DE0025DDD7 /* CoordinatedAnimationsInterfaceController.swift */,
+				8A2DF2741B2BA3430025DDD7 /* PickerStylesInterfaceController.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		53E1F8E91B544DA50085ECDA /* video */ = {
+			isa = PBXGroup;
+			children = (
+				53E1F8EA1B544DBD0085ECDA /* sample_clip1.m4v */,
+			);
+			name = video;
+			sourceTree = "<group>";
+		};
+		53E1F8EC1B5450270085ECDA /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				8A0560D31B28ED1400E5E00C /* AudioRecAndPlayInterfaceController.swift */,
+				8AD5D7841B29641A001924F0 /* AudioFilePlayerInterfaceController.swift */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		53E1F8ED1B54502C0085ECDA /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				53E1F8F01B5452210085ECDA /* VideoPlayerInterfaceController.swift */,
+				53E1F8F21B5458F60085ECDA /* MediaPlayerInterfaceController.swift */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
 		8AA60E1D1B28E20300BE313B = {
 			isa = PBXGroup;
 			children = (
@@ -295,18 +365,12 @@
 		8AD5D6CE1B290EEA001924F0 /* SampleControllers */ = {
 			isa = PBXGroup;
 			children = (
-				8A3C17F81B2CB7FF00D75AB6 /* AccelerometerInterfaceController.swift */,
-				8ACBDCEF1B2CBC23006D98E1 /* GyroscopeInterfaceController.swift */,
-				8ACBDCF21B2CC582006D98E1 /* PedometerInterfaceController.swift */,
+				53E1F8E81B544C170085ECDA /* UI */,
+				53E1F8E71B544BFC0085ECDA /* Animation */,
+				53E1F8E61B544BEA0085ECDA /* CoreaMotion */,
+				53E1F8E51B544BD00085ECDA /* Media */,
 				8A50D5FE1B2CCDD400F4C7A2 /* HeartRateInterfaceController.swift */,
-				8A50D6001B2CDC4600F4C7A2 /* TableAnimationInterfaceController.swift */,
-				8A50D6021B2CE4C500F4C7A2 /* AnimatedPropertiesInterfaceController.swift */,
-				8A0560D31B28ED1400E5E00C /* AudioRecAndPlayInterfaceController.swift */,
-				8AD5D7841B29641A001924F0 /* AudioFilePlayerInterfaceController.swift */,
 				8AD5D78C1B2969FB001924F0 /* TapticInterfaceController.swift */,
-				8AFECCB31B2A3246005C46D1 /* AlertInterfaceController.swift */,
-				8A2DF2721B2B85DE0025DDD7 /* CoordinatedAnimationsInterfaceController.swift */,
-				8A2DF2741B2BA3430025DDD7 /* PickerStylesInterfaceController.swift */,
 				8A976E5E1B2C9AC8008851CD /* OpenSystemURLInterfaceController.swift */,
 				8A732D781B2FE32D00551CE3 /* MessageToPhoneInterfaceController.swift */,
 				0CE334871B31754C004121A5 /* NSURLSessionInterfaceController.swift */,
@@ -317,6 +381,7 @@
 		8AD5D7861B2965D5001924F0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				53E1F8E91B544DA50085ECDA /* video */,
 				8AD5D7871B2965D5001924F0 /* sounds */,
 			);
 			path = Resources;
@@ -536,6 +601,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AD5D7891B2965D5001924F0 /* se_tap.m4a in Resources */,
+				53E1F8EB1B544DBD0085ECDA /* sample_clip1.m4v in Resources */,
 				8AA60E6F1B28E20300BE313B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -578,7 +644,9 @@
 				8AA60E691B28E20300BE313B /* NotificationController.swift in Sources */,
 				8ACBDCF31B2CC582006D98E1 /* PedometerInterfaceController.swift in Sources */,
 				8AA60E671B28E20300BE313B /* ExtensionDelegate.swift in Sources */,
+				53E1F8F31B5458F60085ECDA /* MediaPlayerInterfaceController.swift in Sources */,
 				8AA60E6D1B28E20300BE313B /* ComplicationController.swift in Sources */,
+				53E1F8F11B5452210085ECDA /* VideoPlayerInterfaceController.swift in Sources */,
 				8A976E5F1B2C9AC8008851CD /* OpenSystemURLInterfaceController.swift in Sources */,
 				8AFECCB41B2A3246005C46D1 /* AlertInterfaceController.swift in Sources */,
 				8A732D791B2FE32D00551CE3 /* MessageToPhoneInterfaceController.swift in Sources */,
