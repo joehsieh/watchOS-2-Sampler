@@ -27,6 +27,71 @@ class InterfaceController: WKInterfaceController {
 
         items = [
             [
+                kItemKeyTitle: "Network Access",
+                kItemKeyDetail: "Get an image data from network using NSURLSession.",
+                kItemKeyClassPrefix: "NSURLSession",
+            ],
+            [
+                kItemKeyTitle: "Interactive Messaging",
+                kItemKeyDetail: "Sending message to phone and receiving from phone demo with WatchConnectivity.",
+                kItemKeyClassPrefix: "MessageToPhone",
+            ],
+            [
+                kItemKeyTitle: "Picker Styles",
+                kItemKeyDetail: "WKInterfacePicker styles catalog.",
+                kItemKeyClassPrefix: "PickerStyles",
+            ],
+            [
+                kItemKeyTitle: "DigitalCrown-Anim",
+                kItemKeyDetail: "Coordinated Animations with WKInterfacePicker and Digital Crown.",
+                kItemKeyClassPrefix: "CoordinatedAnimations",
+            ],
+            [
+                kItemKeyTitle: "Alert",
+                kItemKeyDetail: "Present an alert or action sheet.",
+                kItemKeyClassPrefix: "Alert",
+            ],
+            [
+                kItemKeyTitle: "Table Animations",
+                kItemKeyDetail: "Insert and remove animations for WKInterfaceTable.",
+                kItemKeyClassPrefix: "TableAnimation",
+            ],
+            [
+                kItemKeyTitle: "Animated Props",
+                kItemKeyDetail: "Animate width/height and alignments.",
+                kItemKeyClassPrefix: "AnimatedProperties",
+            ],
+            [
+                kItemKeyTitle: "Video player",
+                kItemKeyDetail: "WKInterfaceMovie demo",
+                kItemKeyClassPrefix: "VideoPlayer",
+            ],
+            [
+                kItemKeyTitle: "Media player",
+                kItemKeyDetail: "Present media player",
+                kItemKeyClassPrefix: "MediaPlayer",
+            ],
+            [
+                kItemKeyTitle: "Audio Rec & Play",
+                kItemKeyDetail: "Record and play audio.",
+                kItemKeyClassPrefix: "AudioRecAndPlay",
+            ],
+            [
+                kItemKeyTitle: "Audio File Player",
+                kItemKeyDetail: "Play an audio file with WKAudioFilePlayer.",
+                kItemKeyClassPrefix: "AudioFilePlayer",
+            ],
+            [
+                kItemKeyTitle: "Open System URL",
+                kItemKeyDetail: "Open Tel or SMS app using openSystemURL: method.",
+                kItemKeyClassPrefix: "OpenSystemURL",
+            ],
+            [
+                kItemKeyTitle: "Taptic Engine",
+                kItemKeyDetail: "Access to the Taptic engine using playHaptic method.",
+                kItemKeyClassPrefix: "Taptic",
+            ],
+            [
                 kItemKeyTitle: "Accelerometer",
                 kItemKeyDetail: "Access to Accelerometer data using CoreMotion.",
                 kItemKeyClassPrefix: "Accelerometer"
@@ -45,71 +110,6 @@ class InterfaceController: WKInterfaceController {
                 kItemKeyTitle: "Heart Rate",
                 kItemKeyDetail: "Access to Heart Rate data using HealthKit.",
                 kItemKeyClassPrefix: "HeartRate",
-            ],
-            [
-                kItemKeyTitle: "Table Animations",
-                kItemKeyDetail: "Insert and remove animations for WKInterfaceTable.",
-                kItemKeyClassPrefix: "TableAnimation",
-            ],
-            [
-                kItemKeyTitle: "Animated Props",
-                kItemKeyDetail: "Animate width/height and alignments.",
-                kItemKeyClassPrefix: "AnimatedProperties",
-            ],
-            [
-                kItemKeyTitle: "Audio Rec & Play",
-                kItemKeyDetail: "Record and play audio.",
-                kItemKeyClassPrefix: "AudioRecAndPlay",
-            ],
-            [
-                kItemKeyTitle: "Picker Styles",
-                kItemKeyDetail: "WKInterfacePicker styles catalog.",
-                kItemKeyClassPrefix: "PickerStyles",
-            ],
-            [
-                kItemKeyTitle: "Taptic Engine",
-                kItemKeyDetail: "Access to the Taptic engine using playHaptic method.",
-                kItemKeyClassPrefix: "Taptic",
-            ],
-            [
-                kItemKeyTitle: "Alert",
-                kItemKeyDetail: "Present an alert or action sheet.",
-                kItemKeyClassPrefix: "Alert",
-            ],
-            [
-                kItemKeyTitle: "DigitalCrown-Anim",
-                kItemKeyDetail: "Coordinated Animations with WKInterfacePicker and Digital Crown.",
-                kItemKeyClassPrefix: "CoordinatedAnimations",
-            ],
-            [
-                kItemKeyTitle: "Interactive Messaging",
-                kItemKeyDetail: "Sending message to phone and receiving from phone demo with WatchConnectivity.",
-                kItemKeyClassPrefix: "MessageToPhone",
-            ],
-            [
-                kItemKeyTitle: "Open System URL",
-                kItemKeyDetail: "Open Tel or SMS app using openSystemURL: method.",
-                kItemKeyClassPrefix: "OpenSystemURL",
-            ],
-            [
-                kItemKeyTitle: "Audio File Player",
-                kItemKeyDetail: "Play an audio file with WKAudioFilePlayer.",
-                kItemKeyClassPrefix: "AudioFilePlayer",
-            ],
-            [
-                kItemKeyTitle: "Network Access",
-                kItemKeyDetail: "Get an image data from network using NSURLSession.",
-                kItemKeyClassPrefix: "NSURLSession",
-            ],
-            [
-                kItemKeyTitle: "Video player",
-                kItemKeyDetail: "WKInterfaceMovie demo",
-                kItemKeyClassPrefix: "VideoPlayer",
-            ],
-            [
-                kItemKeyTitle: "Media player",
-                kItemKeyDetail: "Present media player",
-                kItemKeyClassPrefix: "MediaPlayer",
             ],
         ]
     }

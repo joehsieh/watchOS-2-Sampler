@@ -193,6 +193,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		534A6D791B569CC10052B249 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				0CE334871B31754C004121A5 /* NSURLSessionInterfaceController.swift */,
+				8A732D781B2FE32D00551CE3 /* MessageToPhoneInterfaceController.swift */,
+			);
+			name = Communication;
+			sourceTree = "<group>";
+		};
 		53E1F8E51B544BD00085ECDA /* Media */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,8 +234,8 @@
 			isa = PBXGroup;
 			children = (
 				8A2DF2741B2BA3430025DDD7 /* PickerStylesInterfaceController.swift */,
-				8AFECCB31B2A3246005C46D1 /* AlertInterfaceController.swift */,
 				8A2DF2721B2B85DE0025DDD7 /* CoordinatedAnimationsInterfaceController.swift */,
+				8AFECCB31B2A3246005C46D1 /* AlertInterfaceController.swift */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -365,6 +374,7 @@
 		8AD5D6CE1B290EEA001924F0 /* SampleControllers */ = {
 			isa = PBXGroup;
 			children = (
+				534A6D791B569CC10052B249 /* Communication */,
 				53E1F8E81B544C170085ECDA /* UI */,
 				53E1F8E71B544BFC0085ECDA /* Animation */,
 				53E1F8E51B544BD00085ECDA /* Media */,
@@ -372,8 +382,6 @@
 				8A50D5FE1B2CCDD400F4C7A2 /* HeartRateInterfaceController.swift */,
 				8AD5D78C1B2969FB001924F0 /* TapticInterfaceController.swift */,
 				8A976E5E1B2C9AC8008851CD /* OpenSystemURLInterfaceController.swift */,
-				8A732D781B2FE32D00551CE3 /* MessageToPhoneInterfaceController.swift */,
-				0CE334871B31754C004121A5 /* NSURLSessionInterfaceController.swift */,
 			);
 			name = SampleControllers;
 			sourceTree = "<group>";

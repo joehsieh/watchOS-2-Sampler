@@ -68,7 +68,7 @@ class AudioRecAndPlayInterfaceController: WKInterfaceController {
         self.presentAudioRecordingControllerWithOutputURL(
             self.recFileURL(),
             preset: WKAudioRecordingPreset.NarrowBandSpeech,
-            maximumDuration: 25.0,
+            maximumDuration: 5.0,
             actionTitle: "SomeTitle") { (didSave, error) -> Void in
                 
                 self.recLabel.setText("didSave:\(didSave), error:\(error)")
